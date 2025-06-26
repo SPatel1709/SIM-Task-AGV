@@ -100,15 +100,15 @@ $ roslaunch tortoisebotpromax_gazebo tortoisebotpromax_playground.launch
 $ roslaunch tortoisebotpromax_description display.launch
 ```
 
-![unnamed.jpg](unnamed.jpg)
+![unnamed.jpg](Photos/unnamed.jpg)
 
 ## Task 2
 
 For writing the Aruco Markers no such proper instructions were given whether to write it on my own or install the package. But the package was not working (as happened to my friends) I tried to search on internet but didnot get more sources who can teach how to code. So I took help of chat gpt and also one repo on github who had done the same task.
 
-![Screenshot from 2024-06-06 20-44-24.png](Screenshot_from_2024-06-06_20-44-24.png)
+![Screenshot from 2024-06-06 20-44-24.png](Photos/Screenshot_from_2024-06-06_20-44-24.png)
 
-![One can see the qr code type pictures on the walls that are aruco markers](Screenshot_from_2024-06-06_20-34-40.png)
+![One can see the qr code type pictures on the walls that are aruco markers](Photos/Screenshot_from_2024-06-06_20-34-40.png)
 
 One can see the qr code type pictures on the walls that are aruco markers
 
@@ -147,7 +147,7 @@ To save the map
 rosrun map_server map_saver -f map
 ```
 
-![Screenshot from 2024-08-11 07-55-49.png](Screenshot_from_2024-08-11_07-55-49.png)
+![Screenshot from 2024-08-11 07-55-49.png](Photos/Screenshot_from_2024-08-11_07-55-49.png)
 
 ## Task 4
 
