@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+<rosparam file="$(find tortoisebotpromax_navigation)/param/move_base_params.yaml" command="load"/>
+<node name="map_server" pkg="map_server" type="map_server" args="/home/shrey/catkin_ws/map.yaml"/>
+<include file="$(find tortoisebotpromax_navigation)/launch/amcl.launch"/>
+<include file="$(find tortoisebotpromax_navigation)/launch/move_base.launch"/>
+<node pkg="aruco_marker_teleop" type="waypoint_navigator.py" name="navigator" output="screen"/>
+</launch>

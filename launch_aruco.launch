@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+    <node name="aruco_marker_detector" pkg="aruco_marker_teleop" type="aruco_marker_detector.py" output="screen"/>
+
+</launch>
