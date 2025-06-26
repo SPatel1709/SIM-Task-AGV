@@ -125,9 +125,9 @@ One can see the qr code type pictures on the walls that are aruco markers
     [https://github.com/maker-ATOM/Robonautica-AMR/tree/master](https://github.com/maker-ATOM/Robonautica-AMR/tree/master)
     
 
-[aruco_marker_detector.py](aruco_marker_detector.py)
+[aruco_marker_detector.py]
 
-[waypoints.json](waypoints.json)
+[waypoints.json]
 
 Only one code to add to the teminal after doing the running simulations part the launch file that I created(launh_aruco.launch) under aruco_marker_teleop
 
@@ -139,9 +139,7 @@ Roslaunch aruco_marker_teleop launch_aruco.launch
 
 Generating map using cartographer
 
-After running these codes below:
-
-[Running the simulations](https://www.notion.so/Running-the-simulations-cf4a2da898d94441b45a64a0df23a026?pvs=21) 
+After running these codes given in running the simulation:
 
 To save the map
 
@@ -160,10 +158,6 @@ The logic behind this was to take the robot to the position that are stored in t
 [launcher.launch](launcher.launch)
 
 The code is running with some issues sometimes it doesn’t reach the required position.
-
-The video of the autonomous driving
-
-https://drive.google.com/file/d/1A5qs8mWpkFRaHFUghqitIlo0rT3DNWmk/view?usp=drive_link
 
 ## Repo and useful links:
 
